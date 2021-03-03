@@ -1,0 +1,3 @@
+﻿  42_=operater_assembly.c
+C:\Users\Administrator\Desktop\VS\Lecture\42_=operater_assembly\42_=operater_assembly.c(42,3): warning C4552: '*': 식의 결과가 사용되지 않습니다.
+  42_=operater_assembly.vcxproj -> C:\Users\Administrator\Desktop\VS\Lecture\Debug\42_=operater_assembly.exe
