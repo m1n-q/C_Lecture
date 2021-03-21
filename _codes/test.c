@@ -81,17 +81,28 @@ int main()
 
  
 
-	최종 정리
+	// 최종 정리
 
-		arr[0] ->	배열명으로와 포인터로서? 그 주소 &arr[0] ? 
-		-> PARR[0] 이 찐 포인터 &parr[0] 존재
+	// 	arr[0] ->	배열명으로와 포인터로서? 그 주소 &arr[0] ? 
+	// 	-> PARR[0] 이 찐 포인터 &parr[0] 존재
 
-		arr == &arr[0], ==&arr ???
-		값은 셋다 같지. 
+	// 	arr == &arr[0], ==&arr ???
+	// 	값은 셋다 같지. 
 
 		
-		근데 arr 은 ㅇㄷ에 대한 포인터, &arr은 어디에 대한 포인터 ㅋㅋ
+	// 	근데 arr 은 ㅇㄷ에 대한 포인터, &arr은 어디에 대한 포인터 ㅋㅋ
 
-		printf("%u %u\n", &arr[0], &arr[0] + 1);
+	// 	printf("%u %u\n", &arr[0], &arr[0] + 1);
+
+
+	int a = 1;
+		int b = 2;
+		int* aptr = &a;
+		int* bptr = (long long)&b + 1;
+		int j = aptr - bptr;
+		printf("%lld %lld\n", (long long)aptr, (long long)bptr);
+		printf("%td", j);
+
+
 
 }  

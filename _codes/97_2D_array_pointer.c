@@ -61,18 +61,18 @@ int main()
 
 
 
-	//printf("%p\n", parr);
-	//printf("%p\n", &parr);
+	printf("%p\n", parr);
+	printf("%p\n", &parr);
 
-	//printf("%p\n", &parr[0]);		// ADDRESS OF POINTER 
-	//printf("%p\n", parr[0]);		
-	//
-	//printf("%p\n", arr);
-	//printf("%p\n", &arr[0]);
-	//printf("%p\n", &arr);
-	//
-	//printf("%p\n", arr[0]);
-	//printf("%p\n", &arr[0][0]);
+	printf("%p\n", &parr[0]);		// ADDRESS OF POINTER 
+	printf("%p\n", parr[0]);		
+	
+	printf("%p\n", arr);
+	printf("%p\n", &arr[0]);
+	printf("%p\n", &arr);
+	
+	printf("%p\n", arr[0]);
+	printf("%p\n", &arr[0][0]);
 	
 
 

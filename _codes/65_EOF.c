@@ -21,6 +21,7 @@ int main()
 	// Ctrl + c 로 강제종료
 
 
+
 	while ((c = getchar()) != EOF)	// End Of File
 		putchar(c);
 
